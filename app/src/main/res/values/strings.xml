@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Android GeoMap Project</string>
+
+    <string name="td_labeled_longitude"><![CDATA[<small>Longitude</small><br />%1$s]]></string>
+    <string name="td_labeled_latitude"><![CDATA[<small>Latitude</small><br />%1$s]]></string>
+    <string name="td_labeled_altitude"><![CDATA[<small>Altitude</small><br />%1$s]]></string>
+    <string name="td_labeled_accuracy"><![CDATA[<small>Accuracy</small><br />%1$s]]></string>
+    <string name="td_labeled_src"><![CDATA[<small>Source</small><br />%1$s]]></string>
+    <string name="td_labeled_time"><![CDATA[<small>Update Time</small><br />%1$s]]></string>
+</resources>

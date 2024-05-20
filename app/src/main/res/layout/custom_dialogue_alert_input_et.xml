@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:elevation="@dimen/spacePrimaryHalf">
+
+    <TextView
+        android:id="@+id/tv_question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/tvQuestion"
+        android:text="Enter Reference Number"/>
+
+    <EditText
+        android:id="@+id/kbi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Reference Number"
+        android:background="@drawable/dl_border_input_et_border"
+        style="@style/etInput" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TableRow>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/tvQuestion"
+                android:text="External GPS Coordinates (Optional)"
+                android:layout_span="2"/>
+
+        </TableRow>
+        <TableRow>
+            <EditText
+                android:id="@+id/extLat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:hint="External GPS Latitude"
+                android:background="@drawable/dl_border_input_et_border"
+                style="@style/etInput" />
+
+            <EditText
+                android:id="@+id/extLon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:hint="External GPS Longitude"
+                android:background="@drawable/dl_border_input_et_border"
+                style="@style/etInput" />
+
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

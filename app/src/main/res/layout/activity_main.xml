@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:gravity="center"
+        android:text="Android GeoMap Project"
+        android:layout_margin="@dimen/spaceSmall"/>
+
+    <Button
+        android:id="@+id/btnActivityOne"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open Sample GeoMap" />
+
+    <Button
+        android:id="@+id/btnActivityTwo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open Activity Two" />
+
+    <Button
+        android:id="@+id/btnGpsToolkit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open GPS Observation (Toolkit)"/>
+
+
+</LinearLayout>
